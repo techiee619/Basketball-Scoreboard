@@ -1,0 +1,110 @@
+body {
+    margin: 40px 25px 100px 25px;
+    margin: 0px;
+    background-color: skyblue;
+    text-align: center;
+}
+
+#title {
+    margin-top: 40px;
+    font-family: 'Verdana';
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 50px 10px 50px; 
+    background-color: #075985;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+.main {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home {
+    width: 155px;
+    height: 45px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: wheat;
+}
+
+#guest {
+    width: 155px;
+    height: 45px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: wheat;
+}
+
+#scoreh {
+    background-color: black;
+    border: 2px solid yellow;
+    width: 155px;
+    height: 120px;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-family:'Orbitron', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    color: red
+}
+
+#scoreg {
+    background-color: black;
+    border: 2px solid yellow;
+    width: 155px;
+    height: 120px;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-family:'Orbitron', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    color: red;
+}
+
+.btn {
+    font-family:'Orbitron', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    width: 45px;
+    height: 45px;
+    background-color: #075985;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+#rst {
+    font-family: 'Verdana';
+    font-style: bold;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 7px 10px 7px 10px;
+    background-color: #075985;
+    color: yellow;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.btn:hover {
+   font-size: 20px;
+}
+
+#rst:hover {
+    font-size: 20px;
+}
